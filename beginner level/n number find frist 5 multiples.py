@@ -1,10 +1,10 @@
-k=list()
-a=input()
+e=list()
+d=input()
 try:
-	b=int(a)
+	b=int(d)
 except:
 	print("invalid input")
 else:
 	for i in range(1,6):
-		k.append(str(i*b))
-	print(" ".join((k)))	
+		e.append(str(i*b))
+	print(" ".join((e)))	
